@@ -1,0 +1,84 @@
+main {
+    background-color: #F2ECE7;
+}
+
+.header__inner{
+    margin: 0 auto;
+    padding: 20px 15px;
+    border-bottom: solid 1px #827569;
+    max-width: 1230px;
+}
+
+.header__logo {
+    padding-bottom: .5rem;
+    color: #827569;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact-form__content{
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading{
+    margin-bottom: 40px;
+    text-align: center;
+    color: #827569;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form{
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.need{
+    margin-left: 3px;
+    padding: 4px 6px;
+    color: #FF0028;
+}
+
+.form__input-text input,
+.form__input-textarea textarea p,
+.form__input-select{
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #827569;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.form__input-text input
+.form__input-select select{
+    height: 40px;
+}
+
+.form__input-textarea textarea{
+    height: 180px;
+}
+
+.form__button{
+    margin-top: 30px;
+}
+
+.form__button-submit{
+    padding: 10px;
+    width: 20%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background-color: #827569;
+    color: #fff;
+    cursor: pointer;
+}

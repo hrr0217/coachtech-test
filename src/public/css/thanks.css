@@ -1,0 +1,48 @@
+.thanks__content {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.fontStr {
+    display: inline-block;
+    position: absolute;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.backStr {
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 72px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgba(153, 153, 153, 0.3);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.thanks__btn a {
+    display: inline-block;
+    position: absolute;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 19px;
+    background: #827568;
+    color: #ffffff;
+    line-height: 1em;
+    opacity: 1;
+    transition: .3s;
+}
+
+.thanks__btn:hover {
+    opacity: 0.8;
+}
